@@ -12,13 +12,43 @@
         font-family: "Roboto", serif;
       }
     </style>
-    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Penguin Fashion</title>
   </head>
-  <body>
+  <body class="max-w-[1440px] mx-auto">
     <header>
-        <!--  -->
+      <!-- navbar start -->
+      <nav
+        class="flex justify-between items-center px-[10px] xl:px-[135px] lg:px-[90px] md:px-[60px] sm:px-[20px] roboto"
+      >
+        <div class="max-h-[40px] max-w-[240px]">
+          <img src="images/Group 33072.png" alt="" />
+        </div>
+        <div>
+          <ul
+            class="hidden sm:flex gap-6 text-center items-center font-medium text-[16px]"
+          >
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About Us</a></li>
+            <lo><a href="">Contact Us</a></lo>
+          </ul>
+          <img class="sm:hidden" src="icons/menu-2-outline 1.png" alt="" />
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- banner start -->
+      <section class="md:flex justify-between items-center px-[10px] xl:px-[135px] lg:px-[90px] md:px-[60px] sm:px-[20px]">
+        <div>
+          <h1 class="bebas-neue m-0 p-0 text-[60px] md:text-[80px] text-[#363958]"><span class="text-[#FABE4C]">Be the Penguins</span><br>of Winter</h1>
+          <p class="text-[16px] roboto">Cozy vibes bold style conquer winter with unmatched confidence flair and charm</p>
+          <button class=" bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex gap-1 text-white font-medium text[16px] px-[32px] py-[18px] text-center items-center rounded-2xl"> <img class="h-[24px] w-[24px]" src="icons/shopping-cart 1.png" alt="">Buy Now</button>
+        </div>
+        <div>
+            <img src="images/model.png" alt="">
+        </div>
+      </section>
     </header>
   </body>
 </html>
